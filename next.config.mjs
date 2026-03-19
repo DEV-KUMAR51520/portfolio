@@ -5,6 +5,7 @@ const nextConfig = {
     // your project has ESLint errors.
     ignoreDuringBuilds: true,
   },
+  transpilePackages: ['@splinetool/react-spline', '@splinetool/runtime'],
 };
 
 export default nextConfig;

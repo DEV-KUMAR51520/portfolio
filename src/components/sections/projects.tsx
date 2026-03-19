@@ -40,7 +40,6 @@ const PROJECTS = [
     images: [
       "/assets/projects-screenshots/myportfolio/landing.png",
       "/assets/projects-screenshots/myportfolio/navbar.png",
-      "/assets/projects-screenshots/myportfolio/projects.png",
       "/assets/projects-screenshots/myportfolio/project.png",
     ],
   },
