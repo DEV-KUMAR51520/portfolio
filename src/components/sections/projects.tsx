@@ -36,7 +36,7 @@ const PROJECTS = [
     name: "Portfolio",
     description: `Welcome to my digital playground, where creativity meets code in the
             dopest way possible.`,
-    link: "https://www.abhijitzende.com/",
+    link: "https://portfolio-6fwf.vercel.app/",
     images: [
       "/assets/projects-screenshots/myportfolio/landing.png",
       "/assets/projects-screenshots/myportfolio/navbar.png",
