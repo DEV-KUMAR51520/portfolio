@@ -1,5 +1,6 @@
 import { cn } from "@/lib/utils";
 import Link from "next/link";
+import Image from "next/image";
 import React from "react";
 import { Button } from "../ui/button";
 import { File, Github, Linkedin } from "lucide-react";
@@ -31,6 +32,17 @@ const HeroSection = () => {
           {!isLoading && (
             <>
               <div className="">
+                <BlurIn delay={0.5}>
+                  <div className="relative w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border-4 border-slate-200 dark:border-zinc-800 shadow-2xl mb-4 ml-3">
+                    <Image
+                      src="/assets/devprofile.jpeg"
+                      alt="Dev Profile"
+                      fill
+                      className="object-cover"
+                      priority
+                    />
+                  </div>
+                </BlurIn>
                 <BlurIn delay={0.7}>
                   <p
                     className={cn(
